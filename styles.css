@@ -1,6 +1,0 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    border: none;
-    overflow: hidden;  // This can be useful if you don't want any scrollbars to appear
-}

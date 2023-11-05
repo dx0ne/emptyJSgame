@@ -1,3 +1,5 @@
+import * as PIXI from 'pixi.js';
+
 let app = new PIXI.Application({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -9,7 +11,7 @@ const stage = new PIXI.Container();
 app.stage.addChild(stage);
 
 let background = new PIXI.Graphics();
-background.beginFill(0x000000);
+background.beginFill(0x21070B);
 background.drawRect(0, 0, app.screen.width, app.screen.height);
 background.endFill();
 stage.addChild(background);
