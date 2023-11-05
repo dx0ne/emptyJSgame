@@ -1,4 +1,5 @@
 import * as PIXI from 'pixi.js';
+import '@pixi/math-extras';
 
 let app = new PIXI.Application({
     width: window.innerWidth,
@@ -6,6 +7,12 @@ let app = new PIXI.Application({
     backgroundColor: 0x170B0A,
 });
 document.body.appendChild(app.view);
+
+let point = new PIXI.Point();
+point.set(0, 11);
+console.log(point);
+point = point.normalize();
+console.log(point);
 
 const stage = new PIXI.Container();
 app.stage.addChild(stage);

@@ -26,6 +26,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "@pixi/math-extras": "^7.3.2",
     "pixi.js": "^7.3.2"
   },
   "babel": {
